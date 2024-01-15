@@ -36,7 +36,7 @@ function App() {
       <h1>Style Changer</h1>
       <h2 style={{color:sty.color,fontSize:sty.fontSize}}>{sty.title}</h2>
       <button onClick={newStyle}>Change Style</button>
-
+      <hr/>
     </>
   )
 }
